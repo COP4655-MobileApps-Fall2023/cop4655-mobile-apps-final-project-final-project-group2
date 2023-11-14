@@ -1,5 +1,4 @@
 # cop4655-mobile-apps-final-project-final-project-group2
-cop4655-mobile-apps-final-project-final-project-group2 created by GitHub Classroom
 **Original App Design Project - README Template**
 --
 SIMPLE FITNESS
