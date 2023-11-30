@@ -29,20 +29,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                               serverURL: URL(string: "https://parseapi.back4app.com")!)
         
         
-        var score = GameScore()
-        score.playerName = "Kingsley"
-        score.points = 13
 
         // Save to your server asynchronously (preferred way) - Performs work on background queue and returns to specified callbackQueue.
         // If no callbackQueue is specified it returns to main queue.
-        score.save { result in
-            switch result {
-            case .success(let savedScore):
-                print("✅ Parse Object SAVED!: Player: \(String(describing: savedScore.playerName)), Score: \(String(describing: savedScore.points))")
-            case .failure(let error):
-                assertionFailure("Error saving: \(error)")
-            }
-        }
+//        score.save { result in
+//            switch result {
+//            case .success(let savedScore):
+//                print("✅ Parse Object SAVED!: Player: \(String(describing: savedScore.playerName)), Score: \(String(describing: savedScore.points))")
+//            case .failure(let error):
+//                assertionFailure("Error saving: \(error)")
+//            }
+//        }
         
         
         return true
