@@ -12,9 +12,21 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     private enum Constants {
         static let loginNavigationControllerIdentifier = "LoginNavigationController"
         static let feedNavigationControllerIdentifier = "FeedNavigationController"
+        static let tabBarController = "TabBarController"
         static let storyboardIdentifier = "Main"
     }
+    
+    func onLogOutTapped() {
+        logOut()
+    }
+    
+   
 
+
+    
+
+ 
+    
     var window: UIWindow?
 
 
@@ -43,7 +55,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     //2nd add
     private func login() {
         let storyboard = UIStoryboard(name: Constants.storyboardIdentifier, bundle: nil)
-        self.window?.rootViewController = storyboard.instantiateViewController(withIdentifier: Constants.feedNavigationControllerIdentifier)
+        self.window?.rootViewController = storyboard.instantiateViewController(withIdentifier: Constants.tabBarController)
     }
     
     //3rd add
@@ -73,6 +85,22 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         }
     }
 
+    private func showConfirmLogoutAlert() {
+        guard let rootViewController = window?.rootViewController else {
+            return
+        }
+
+        let alertController = UIAlertController(title: "Log out of \(User.current?.username ?? "current account")?", message: nil, preferredStyle: .alert)
+        let logOutAction = UIAlertAction(title: "Log out", style: .destructive) { _ in
+            NotificationCenter.default.post(name: Notification.Name("logout"), object: nil)
+        }
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
+        alertController.addAction(logOutAction)
+        alertController.addAction(cancelAction)
+
+        // Use the root view controller to present the alert
+        rootViewController.present(alertController, animated: true)
+    }
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
