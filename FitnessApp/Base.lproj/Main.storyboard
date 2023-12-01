@@ -11,7 +11,7 @@
         <!--Home Screen-->
         <scene sceneID="HQ2-PN-GJb">
             <objects>
-                <viewController id="fSF-qF-cwX" customClass="HomeViewController" customModule="FitnessApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fSF-qF-cwX" customClass="HomeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YCg-tc-ZLR">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -27,7 +27,14 @@
                         <viewLayoutGuide key="safeArea" id="cyx-42-63m"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Home Screen" id="LxQ-Ls-F0q"/>
+                    <navigationItem key="navigationItem" title="Home Screen" id="xzD-fO-VeK">
+                        <barButtonItem key="leftBarButtonItem" title="Log Out" id="WKb-y7-BMX">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="onLogOutTapped:" destination="fSF-qF-cwX" id="v78-gX-9lQ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LAj-3y-iUv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
