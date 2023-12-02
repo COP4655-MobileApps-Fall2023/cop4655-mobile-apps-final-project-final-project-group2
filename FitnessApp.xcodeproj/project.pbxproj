@@ -17,7 +17,8 @@
 		3F2E7C472B16D6F900185360 /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3F2E7C462B16D6F900185360 /* ParseSwift */; };
 		3F2E7C492B18146200185360 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E7C482B18146200185360 /* User.swift */; };
 		3F2E7C4B2B181FB900185360 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E7C4A2B181FB900185360 /* LoginViewController.swift */; };
-		3F2E7C4F2B196DBF00185360 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E7C4E2B196DBF00185360 /* HomeViewController.swift */; };
+		3F2E7C512B1BB3C200185360 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E7C502B1BB3C200185360 /* CalendarCell.swift */; };
+		3F2E7C552B1BBF4000185360 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E7C542B1BBF4000185360 /* CalendarHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +33,8 @@
 		3F2E7C432B16CBEF00185360 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		3F2E7C482B18146200185360 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3F2E7C4A2B181FB900185360 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		3F2E7C4E2B196DBF00185360 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3F2E7C502B1BB3C200185360 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		3F2E7C542B1BBF4000185360 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,8 @@
 		3F2E7C232B16BF0400185360 = {
 			isa = PBXGroup;
 			children = (
+				3F2E7C502B1BB3C200185360 /* CalendarCell.swift */,
+				3F2E7C542B1BBF4000185360 /* CalendarHelper.swift */,
 				3F2E7C2E2B16BF0400185360 /* FitnessApp */,
 				3F2E7C2D2B16BF0400185360 /* Products */,
 			);
@@ -70,7 +74,6 @@
 				3F2E7C312B16BF0400185360 /* SceneDelegate.swift */,
 				3F2E7C4A2B181FB900185360 /* LoginViewController.swift */,
 				3F2E7C352B16BF0400185360 /* Main.storyboard */,
-				3F2E7C4E2B196DBF00185360 /* HomeViewController.swift */,
 				3F2E7C482B18146200185360 /* User.swift */,
 				3F2E7C432B16CBEF00185360 /* SignUpViewController.swift */,
 				3F2E7C382B16BF0500185360 /* Assets.xcassets */,
@@ -159,12 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F2E7C4B2B181FB900185360 /* LoginViewController.swift in Sources */,
+				3F2E7C552B1BBF4000185360 /* CalendarHelper.swift in Sources */,
 				3F2E7C302B16BF0400185360 /* AppDelegate.swift in Sources */,
 				3A7E82052B1A8C5B00FB85B9 /* mainViewController.swift in Sources */,
 				3F2E7C442B16CBEF00185360 /* SignUpViewController.swift in Sources */,
 				3F2E7C492B18146200185360 /* User.swift in Sources */,
 				3F2E7C322B16BF0400185360 /* SceneDelegate.swift in Sources */,
-				3F2E7C4F2B196DBF00185360 /* HomeViewController.swift in Sources */,
+				3F2E7C512B1BB3C200185360 /* CalendarCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
