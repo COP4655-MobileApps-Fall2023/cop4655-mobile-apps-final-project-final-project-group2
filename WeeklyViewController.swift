@@ -1,9 +1,12 @@
 
 import Foundation
 import UIKit
+var selectedDate = Date()
 
-class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource
+class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UITableViewDelegate, UITableViewDataSource
 {
+
+    //var selectedDate = Date()
     
     
     override func viewDidLoad() {
@@ -20,6 +23,7 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         selectedDate = totalSquares[indexPath.item]
         collectionView.reloadData()
+        tableView.reloadData()
     }
     @IBAction func previousWeek(_ sender: Any) {
         selectedDate = CalendarHelper().addDays(date: selectedDate, days: -7)
@@ -31,6 +35,7 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
         setMonthView()
     }
  
+    @IBOutlet weak var tableView: UITableView!
     
     //prevent screen from rotating
     
@@ -39,7 +44,6 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
         return false
     }
     
-    var selectedDate = Date()
     var totalSquares = [Date]()
     
     func setCellsView()
@@ -67,6 +71,7 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
         
         monthLabel.text = CalendarHelper().monthString(date: selectedDate) + " " + CalendarHelper().yearString(date: selectedDate)
         collectionView.reloadData()
+        tableView.reloadData()
     }
     
     @IBAction func logOutTapped(_ sender: Any) {
@@ -103,5 +108,21 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
             cell.backgroundColor = UIColor.white
         }
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return Event().eventsForDate(date: selectedDate).count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellID") as! EventCell
+        let event = Event().eventsForDate(date: selectedDate)[indexPath.row]
+        cell.eventLabel.text = event.name + " " + CalendarHelper().timeString(date: event.date)
+        return cell
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        tableView.reloadData()
     }
 }

@@ -38,7 +38,7 @@ class mainViewController: UIViewController, UICollectionViewDelegate, UICollecti
         return false
     }
     
-    var selectedDate = Date()
+    //var selectedDate = Date()
     var totalSquares = [String]()
     
     func setCellsView()

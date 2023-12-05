@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		3A7E82052B1A8C5B00FB85B9 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E82042B1A8C5B00FB85B9 /* mainViewController.swift */; };
 		3AAD03012B1D816B00EDDE62 /* WeeklyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAD03002B1D816B00EDDE62 /* WeeklyViewController.swift */; };
+		3AF7F3062B1EBD2300387D2E /* EventEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF7F3052B1EBD2300387D2E /* EventEditViewController.swift */; };
+		3AF7F3082B1EBD3300387D2E /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF7F3072B1EBD3300387D2E /* EventCell.swift */; };
+		3AF7F30A2B1EC2A900387D2E /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF7F3092B1EC2A900387D2E /* Event.swift */; };
 		3F2E7C302B16BF0400185360 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E7C2F2B16BF0400185360 /* AppDelegate.swift */; };
 		3F2E7C322B16BF0400185360 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E7C312B16BF0400185360 /* SceneDelegate.swift */; };
 		3F2E7C372B16BF0400185360 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2E7C352B16BF0400185360 /* Main.storyboard */; };
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		3A7E82042B1A8C5B00FB85B9 /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
 		3AAD03002B1D816B00EDDE62 /* WeeklyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyViewController.swift; sourceTree = "<group>"; };
+		3AF7F3052B1EBD2300387D2E /* EventEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditViewController.swift; sourceTree = "<group>"; };
+		3AF7F3072B1EBD3300387D2E /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		3AF7F3092B1EC2A900387D2E /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		3F2E7C2C2B16BF0400185360 /* FitnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F2E7C2F2B16BF0400185360 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F2E7C312B16BF0400185360 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +60,7 @@
 		3F2E7C232B16BF0400185360 = {
 			isa = PBXGroup;
 			children = (
+				3AF7F3092B1EC2A900387D2E /* Event.swift */,
 				3AAD03002B1D816B00EDDE62 /* WeeklyViewController.swift */,
 				3F2E7C502B1BB3C200185360 /* CalendarCell.swift */,
 				3F2E7C542B1BBF4000185360 /* CalendarHelper.swift */,
@@ -77,6 +84,8 @@
 				3F2E7C312B16BF0400185360 /* SceneDelegate.swift */,
 				3F2E7C4A2B181FB900185360 /* LoginViewController.swift */,
 				3F2E7C352B16BF0400185360 /* Main.storyboard */,
+				3AF7F3052B1EBD2300387D2E /* EventEditViewController.swift */,
+				3AF7F3072B1EBD3300387D2E /* EventCell.swift */,
 				3F2E7C482B18146200185360 /* User.swift */,
 				3F2E7C432B16CBEF00185360 /* SignUpViewController.swift */,
 				3F2E7C382B16BF0500185360 /* Assets.xcassets */,
@@ -165,10 +174,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F2E7C4B2B181FB900185360 /* LoginViewController.swift in Sources */,
+				3AF7F3062B1EBD2300387D2E /* EventEditViewController.swift in Sources */,
 				3F2E7C552B1BBF4000185360 /* CalendarHelper.swift in Sources */,
 				3F2E7C302B16BF0400185360 /* AppDelegate.swift in Sources */,
+				3AF7F30A2B1EC2A900387D2E /* Event.swift in Sources */,
 				3A7E82052B1A8C5B00FB85B9 /* mainViewController.swift in Sources */,
 				3F2E7C442B16CBEF00185360 /* SignUpViewController.swift in Sources */,
+				3AF7F3082B1EBD3300387D2E /* EventCell.swift in Sources */,
 				3F2E7C492B18146200185360 /* User.swift in Sources */,
 				3AAD03012B1D816B00EDDE62 /* WeeklyViewController.swift in Sources */,
 				3F2E7C322B16BF0400185360 /* SceneDelegate.swift in Sources */,
