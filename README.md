@@ -37,7 +37,22 @@ Tap the "+" button to record your exercise events. Fill in the details and save.
 Navigate to the "Calendar" section to view calendar illustrating your fitness journey throughout the months.
 
 
+## Completed User Stories
 
+- [x] **User Story 1:**
+  - As a user, I want to be able to sign up for this application.
+
+- [x] **User Story 2:**
+  - As a user, I want to be able to log into this application with my credentials.
+
+- [x] **User Story 3:**
+  - I would appreciatye a user-friendly application that is very simple to use.
+
+- [x] **User Story 4:**
+  - Being able to display an accurate calendar.
+    
+- [x] **User Story 5:**
+  - Being able to log my various workout events and have them save onto the calendar so I can see the progress I am making with my workouts throughout the month.
 
 
 
