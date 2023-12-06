@@ -51,7 +51,7 @@ Wireframes [Add picture of your hand sketched wireframes in this section] : ![Im
 [BONUS] Digital Wireframes & Mockups: ![Image 12-6-23 at 5 07 PM](https://github.com/COP4655-MobileApps-Fall2023/cop4655-mobile-apps-final-project-group2/assets/143458932/597507e6-5f18-4600-be07-b53d77c247ff)
 
 
-[BONUS] Interactive Prototype Schema
+[BONUS] Interactive Prototype Schema: 
 
 <div>
     <a href="https://www.loom.com/share/9d6a86d54e264339996bbbce6cfea885">
