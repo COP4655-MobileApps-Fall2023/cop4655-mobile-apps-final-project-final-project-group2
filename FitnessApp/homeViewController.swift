@@ -22,7 +22,7 @@ class homeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        welcomeText.text = "Hello "+(User.current!.username ?? "User")
+        welcomeText.text = " "+(User.current!.username ?? "User")
         
         let dateFormatter = DateFormatter()
         
@@ -33,7 +33,7 @@ class homeViewController: UIViewController {
         
         dateLabel.text = formattedDate
         
-        reminders.text = "Reminders\nDrink a minimum of 125 oz of water\nEat around 2000 calories\nTry to do an hour of physical activity"
+        //reminders.text = "Reminders\nDrink a minimum of 125 oz of water\nEat around 2000 calories\nTry to do an hour of physical activity"
     }
     
 }
