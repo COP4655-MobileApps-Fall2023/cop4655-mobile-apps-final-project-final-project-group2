@@ -8,30 +8,34 @@ The Fitness App Tracker is a simple and user-friendly application designed to he
 
 **Features**
 
-1. User-friendly Interface
+User-friendly Interface
 The app offers an intuitive and easy-to-navigate interface, making it accessible for users of all fitness levels. 
 
-2. Progress Tracking
+Progress Tracking
 Visualize improvements in your performance and stay motivated to achieve your fitness goals with the calender.
 
-3. Goal Setting
+Goal Setting
 Set personalized fitness goals based on your preferences and objectives. The app will track your progress towards these goals, providing a sense of accomplishment.
 
 **Getting Started**
 
-Installation:
+1. Installation:
 
 Download and install the app from the [App Store/Google Play Store].
-Account Setup:
+
+2. Account Setup:
 
 Create a user account to personalize your experience and sync your data across devices.
-Logging Workouts:
+
+3. Logging Workouts:
 
 Tap the "+" button to record your exercise events. Fill in the details and save.
-Tracking Progress:
+
+4. Tracking Progress:
 
 Navigate to the "Calendar" section to view calendar illustrating your fitness journey throughout the months.
-Setting Goals:
+
+5. Setting Goals:
 
 
 License
