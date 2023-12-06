@@ -46,7 +46,11 @@ This project is licensed under the [MIT License] - see the [LICENSE.md] file for
 
 Thank you for choosing the Fitness App Tracker! We're excited to be part of your fitness journey.
 
+Wireframes [Add picture of your hand sketched wireframes in this section] ** UNABLE TO ADD PICTURE PLEASE SEE FILES ON GITHUB **
 
+[BONUS] Digital Wireframes & Mockups ** UNABLE TO ADD PICTURE PLEASE SEE FILES ON GITHUB **
+
+[BONUS] Interactive Prototype Schema
 
 <div>
     <a href="https://www.loom.com/share/9d6a86d54e264339996bbbce6cfea885">
