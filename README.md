@@ -1,5 +1,7 @@
+# cop4655-mobile-apps-final-project-final-project-group2
 
-Fitness App Tracker
+SIMPLE FITNESS
+--
 Overview
 The Fitness App Tracker is a simple and user-friendly application designed to help you monitor and track your fitness activities. Whether you're a seasoned athlete or just getting started on your fitness journey, this app provides a convenient way to log and analyze your workouts.
 
