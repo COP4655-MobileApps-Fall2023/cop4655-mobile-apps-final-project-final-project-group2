@@ -514,6 +514,9 @@
                             </button>
                             <datePicker contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="akd-jP-LiM">
                                 <rect key="frame" x="35" y="205" width="250" height="216"/>
+                                <connections>
+                                    <action selector="datePickerValueChanged:" destination="d5c-AM-QsL" eventType="valueChanged" id="Hqt-C8-tW1"/>
+                                </connections>
                             </datePicker>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Zgl-DF-JNz"/>
@@ -535,7 +538,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zm3-eI-3dL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1693.8461538461538" y="2884.8341232227485"/>
+            <point key="canvasLocation" x="3508" y="1686"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YYI-vo-l5Q">
@@ -554,7 +557,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SdP-Q5-Poq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="977" y="2888"/>
+            <point key="canvasLocation" x="2597" y="1686"/>
         </scene>
         <!--Weekly View Controller-->
         <scene sceneID="2zr-1s-gUa">
@@ -685,23 +688,16 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ukV-OJ-VGj">
                                 <rect key="frame" x="10" y="303.66666666666674" width="370" height="408.33333333333326"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <label key="tableFooterView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OjW-fi-OKf">
-                                    <rect key="frame" x="0.0" y="121.66666793823242" width="370" height="44"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellID" id="s55-3V-MOF" customClass="EventCell" customModule="FitnessApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="370" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="s55-3V-MOF" id="uus-NF-4Vj">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="s55-3V-MOF" id="uus-NF-4Vj" customClass="CalendarCell" customModule="FitnessApp" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="370" height="43.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Event" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yqk-7g-z5p">
-                                                    <rect key="frame" x="20" y="11" width="43" height="21"/>
+                                                    <rect key="frame" x="20" y="11" width="343" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -749,7 +745,9 @@
                         </constraints>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="9nQ-k2-xZJ"/>
+                    <navigationItem key="navigationItem" id="9nQ-k2-xZJ">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="DN6-a5-dnn"/>
+                    </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="collectionView" destination="hDa-B3-YAA" id="YCk-1w-1xj"/>

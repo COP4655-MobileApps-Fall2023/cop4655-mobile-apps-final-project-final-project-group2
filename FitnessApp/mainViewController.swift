@@ -1,6 +1,7 @@
 
 import Foundation
 import UIKit
+var eventsList = [Event]()
 
 class mainViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource
 {
@@ -10,6 +11,7 @@ class mainViewController: UIViewController, UICollectionViewDelegate, UICollecti
         super.viewDidLoad()
         setCellsView()
         setMonthView()
+        print(eventsList)
     }
     
     @IBOutlet weak var collectionView: UICollectionView!
