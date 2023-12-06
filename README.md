@@ -22,7 +22,7 @@ Set personalized fitness goals based on your preferences and objectives. The app
 --
 1. Installation:
 
-Download and install the app from the [App Store/Google Play Store].
+Download and install the app from the [App Store].
 
 2. Account Setup:
 
