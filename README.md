@@ -3,22 +3,23 @@
 SIMPLE FITNESS
 --
 **Overview**
+--
 
 The Fitness App Tracker is a simple and user-friendly application designed to help you monitor and track your fitness activities. Whether you're a seasoned athlete or just getting started on your fitness journey, this app provides a convenient way to log and analyze your workouts.
 
 **Features**
 
-User-friendly Interface
+- User-friendly Interface
 The app offers an intuitive and easy-to-navigate interface, making it accessible for users of all fitness levels. 
 
-Progress Tracking
+- Progress Tracking
 Visualize improvements in your performance and stay motivated to achieve your fitness goals with the calender.
 
-Goal Setting
+- Goal Setting
 Set personalized fitness goals based on your preferences and objectives. The app will track your progress towards these goals, providing a sense of accomplishment.
 
 **Getting Started**
-
+--
 1. Installation:
 
 Download and install the app from the [App Store/Google Play Store].
@@ -43,6 +44,17 @@ This project is licensed under the [MIT License] - see the [LICENSE.md] file for
 
 Thank you for choosing the Fitness App Tracker! We're excited to be part of your fitness journey.
 
+
+...
+Wireframes
+[Add picture of your hand sketched wireframes in this section] 
+** UNABLE TO ADD PICTURE PLEASE SEE FILES ON GITHUB **
+
+[BONUS] Digital Wireframes & Mockups
+** UNABLE TO ADD PICTURE PLEASE SEE FILES ON GITHUB **
+
+[BONUS] Interactive Prototype
+Schema
 
 <div>
     <a href="https://www.loom.com/share/9d6a86d54e264339996bbbce6cfea885">
