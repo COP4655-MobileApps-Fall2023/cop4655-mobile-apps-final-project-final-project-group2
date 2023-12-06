@@ -48,7 +48,8 @@ Thank you for choosing the Fitness App Tracker! We're excited to be part of your
 
 Wireframes [Add picture of your hand sketched wireframes in this section] : ![Image 12-6-23 at 4 36 PM](https://github.com/COP4655-MobileApps-Fall2023/cop4655-mobile-apps-final-project-group2/assets/143458932/77fd80c5-c762-4304-a2e8-36da0f19bba2)
 
-[BONUS] Digital Wireframes & Mockups ** UNABLE TO ADD PICTURE PLEASE SEE FILES ON GITHUB **
+[BONUS] Digital Wireframes & Mockups: ![Image 12-6-23 at 5 07 PM](https://github.com/COP4655-MobileApps-Fall2023/cop4655-mobile-apps-final-project-group2/assets/143458932/597507e6-5f18-4600-be07-b53d77c247ff)
+
 
 [BONUS] Interactive Prototype Schema
 
