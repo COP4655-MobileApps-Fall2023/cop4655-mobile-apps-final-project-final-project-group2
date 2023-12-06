@@ -2,10 +2,12 @@
 
 SIMPLE FITNESS
 --
-Overview
+**Overview**
+
 The Fitness App Tracker is a simple and user-friendly application designed to help you monitor and track your fitness activities. Whether you're a seasoned athlete or just getting started on your fitness journey, this app provides a convenient way to log and analyze your workouts.
 
-Features
+**Features**
+
 1. User-friendly Interface
 The app offers an intuitive and easy-to-navigate interface, making it accessible for users of all fitness levels. 
 
@@ -15,7 +17,8 @@ Visualize improvements in your performance and stay motivated to achieve your fi
 3. Goal Setting
 Set personalized fitness goals based on your preferences and objectives. The app will track your progress towards these goals, providing a sense of accomplishment.
 
-Getting Started
+**Getting Started**
+
 Installation:
 
 Download and install the app from the [App Store/Google Play Store].
