@@ -62,7 +62,7 @@ This project is licensed under the [MIT License] - see the [LICENSE.md] file for
 Thank you for choosing the Fitness App Tracker! We're excited to be part of your fitness journey.
 
 Prep Video: 
-![ezgif com-video-to-gif-7](https://github.com/COP4655-MobileApps-Fall2023/cop4655-mobile-apps-final-project-group2/assets/143458932/9156e992-3a74-4324-8919-ef84f70fa285)
+![ezgif com-video-to-gif-7](https://github.com/COP4655-MobileApps-Fall2023/cop4655-mobile-apps-final-project-group2/assets/143458932/9156e992-3a74-4324-8919-ef84f70fa285.gif)
 
 
 
