@@ -9,14 +9,14 @@ The Fitness App Tracker is a simple and user-friendly application designed to he
 
 **Features**
 
-- User-friendly Interface
+- User-friendly Interface:
 The app offers an intuitive and easy-to-navigate interface, making it accessible for users of all fitness levels. 
 
-- Progress Tracking
+- Progress Tracking:
 Visualize improvements in your performance and stay motivated to achieve your fitness goals with the calender.
 
-- Goal Setting
-Set personalized fitness goals based on your preferences and objectives. The app will track your progress towards these goals, providing a sense of accomplishment.
+- Event Setting:
+Set personalized fitness goals based on your workout activities/events.
 
 **Getting Started**
 --
