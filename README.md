@@ -49,7 +49,7 @@ Navigate to the "Calendar" section to view calendar illustrating your fitness jo
   - I would appreciatye a user-friendly application that is very simple to use.
 
 - [x] **User Story 4:**
-  - Being able to display an accurate calendar.
+  - Having an accurate calendar to view throughout the year.
     
 - [x] **User Story 5:**
   - Being able to log my various workout events and have them save onto the calendar so I can see the progress I am making with my workouts throughout the month.
